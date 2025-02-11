@@ -6,21 +6,20 @@ Built with love by Moon Dev 🚀
 # 💰 Trading Configuration
 USDC_ADDRESS = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"  # Never trade or close
 SOL_ADDRESS = "So11111111111111111111111111111111111111111"   # Never trade or close
+ETH_ADRESS= "0x2eaa73bd0db20c64f53febea7b5f5e5bccc7fb8b" # Never trade or close
+USDT_ADDRESS = "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" # Never trade or close
+
 
 # Create a list of addresses to exclude from trading/closing
-EXCLUDED_TOKENS = [USDC_ADDRESS, SOL_ADDRESS]
+EXCLUDED_TOKENS = [USDC_ADDRESS, SOL_ADDRESS, ETH_ADRESS]
 
 # Token List for Trading 📋
 MONITORED_TOKENS = [
-    '9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump',    # 🌬️ FART
-    # 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',    # 💵 USDC
-    'HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC',    # 🤖 AI16Z
-    # 'v62Jv9pwMTREWV9f6TetZfMafV254vo99p7HSF25BPr',     # 🎮 GG Solana
-    # 'KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP',   # GRIFFAIN
-    # '8x5VqbHA8D7NkD52uNuS5nnt3PwA3pLD34ymskeSo2Wn',    # 🧠 ZEREBRO
-    # 'Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump',    # 😎 CHILL GUY
-    # 'ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY',    # 🌙 MOODENG
-    # 'EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm',    # 🐕 WIF
+   #'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',    # 💵 USDT
+    '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',    # TRUMPOFFICIA:
+    'FUAfBo2jgks6gB4Z4LfZkqSZgzNucisEHqnNebaRxM1P',    # MELANIA
+    'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',    # 💵 USDC
+    'hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux',      # hnt
 ]
 
 # Moon Dev's Token Trading List 🚀
@@ -28,8 +27,8 @@ MONITORED_TOKENS = [
 tokens_to_trade = MONITORED_TOKENS  # Using the same list for trading
 
 # Token and wallet settings
-symbol = '9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump'
-address = '4wgfCBf2WwLSRKLef9iW7JXZ2AfkxUxGM4XcKpHm3Sin' # YOUR WALLET ADDRESS HERE
+symbol = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v' ## TRUMPOFFICIA:
+address = '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN' # YOUR WALLET ADDRESS HERE
 
 # Position sizing 🎯
 usd_size = 25  # Size of position to hold
